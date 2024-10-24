@@ -12,7 +12,7 @@ public:
             if (mp[nums[right]] < 3)
             {
                 swap(nums[left], nums[right]);
-                left++;
+                left++; 
             }
             else
             {
