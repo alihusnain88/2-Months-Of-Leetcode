@@ -1,6 +1,6 @@
 class Solution
-{
-public:
+{ 
+public: 
     int removeDuplicates(vector<int> &nums)
     {
         int size = nums.size();
@@ -8,7 +8,7 @@ public:
         int left = 0, right = 0;
         for (right = 0; right < size; right++)
         {
-            mp[nums[right]]++;
+            mp[nums[right]]++; 
             if (mp[nums[right]] < 3)
             {
                 swap(nums[left], nums[right]);
